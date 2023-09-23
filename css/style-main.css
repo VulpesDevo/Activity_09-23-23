@@ -8,6 +8,7 @@
 
 body {
     background-color: #242325;
+    color: white;
    
 }
 
@@ -17,7 +18,125 @@ main {
 
 .box {
     background-color: chocolate;
-    width: 32rem;
-    height: 20rem;    
+    width: 17rem;
+    height: 10rem;
+    margin-right: 1rem; 
+    margin-bottom: 1rem;
+    float: left; 
+}
+
+.page-title {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+    color: #b94764;
+}
+nav {
+    text-align: center;
+    padding: 1rem;
+}
+.nav-items {
+    margin: 30px;
+    color: #e07c09;
+    font-size:  18px;
+    text-decoration: none;
+    
+}
+.nav-items:hover {
+    text-decoration: underline;
+    transition: color .5s ease-in-out;
+    color: #f04815;
+}
+.button {
+}
+.rounded-button {
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color: #082997;
+    border: none;
+    color: white;
+}
+.button .rounded-button:active {
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color: #8f4ae9;
+    border: none;
+    color: black;
+}
+.rounded-button:hover {
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color: #1941ad;
+    border: none;
+    color: white;
+}
+.border-div {
+    text-align: center;
+    border: 2px #ed5dfa;
+    border-bottom-style: dashed;
+    margin: auto;
+    padding-bottom: 10px;
+    color: #ed5dfa;
+}
+.div-outer {
+    margin-top: 3rem;
+    margin-bottom:3rem ;
+    background-color: cadetblue;
+    padding-right: 1.5rem;
+    text-align: end;
+    width: 425px;
+    height: 200px;
+    color: black;
+    
+}
+.div-middle {
+    margin: 0.20rem .5rem .5rem 3rem;
+    background-color:aquamarine;
+    padding-right: 1.5rem;
+    width: 350px;
+    height: 150px;
+}
+.div-inner {
+    margin: 0.20rem .5rem .5rem 3rem;
+    background-color:darkcyan;
+    padding-right: 1.5rem;
+    text-align: end;
+    width: 280px;
+    height: 110px;
+}
+ul{
+    list-style: none;
+}
+li a{
+    color:#b94764;
+    font-size: 1.1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+li a:hover{
+    color:#f7cad5
+}
+.to-active:active{
+    color: aquamarine;
+}
+.to-visited:visited{
+    color: rgb(205, 214, 71);
+}
+.to-focus:focus{
+    color: rgb(86, 72, 218);
+}
+
+.left {
+}
+.clear {
+    clear: both;
+}
+blockquote q {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.15rem;
+    text-align: justify;
+}
+.float-paragraph {
+    text-align: justify;
 }
 
